@@ -12,3 +12,15 @@ for (let i = 0; i < 6; i++) {
         console.log('pari')
     }
 }
+
+// correzione
+const numbers = []
+
+for (let index = 0; index < 6; index++) {
+    const newNumber = Number.parseInt(prompt('type a number'), 10);
+    if (newNumber % 2 === 0) {
+        numbers.push(newNumber);
+    }
+}
+
+console.log(numbers)

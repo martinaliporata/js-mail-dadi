@@ -18,3 +18,13 @@ if (array.includes(userMail)) {
     console.log('No')
 }
 
+// correzione
+const grantedMails = ['gino@gmail.com', 'sara@hotmail.com', 'luigi@outlook.com']
+const userEmail = prompt ('Type your email')
+
+if (grantedMails.includes(userEmail.toLocaleLowerCase().trim()) !== -1) {
+    console.log('You can access')
+} else {
+    console.log('You cant')
+}
+

@@ -32,3 +32,15 @@ if(randomNumber1 === randomNumber2) {
 } else (randomNumber1 < randomNumber2); {
     console.log('User has won')
 }
+
+// Correzione
+const userNumber = Math.floor(Math.random() * 6) + 1;
+const computerNumber = Math.floor(Math.random() * 6) + 1;
+
+if (userNumber === computerNumber) {
+    console.log('Nobody has won', userNumber, computerNumber)
+} else if (userNumber > computerNumber) {
+    console.log ('User won', userNumber, computerNumber)
+} else {
+    console.log ('Computer won', userNumber, computerNumber)
+}
