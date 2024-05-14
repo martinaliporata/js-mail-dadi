@@ -6,3 +6,9 @@
 // Inserisci con un'istruzione condizionale (if) la possibilità di inserire un numero in array solo se è pari.
 
 const array = []
+
+for (let i = 0; i < 6; i++) {
+    if (i%2===0) {
+        console.log('pari')
+    }
+}
