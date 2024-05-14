@@ -10,3 +10,10 @@
 const userMail = prompt('type your mail')
 console.log(userMail)
 
+const array = [lucia, marco, salvatore, giuseppe, tiziano]
+
+if (array.includes(userMail)) {
+    console.log('Join')
+} else {
+    console.log('No')
+}
